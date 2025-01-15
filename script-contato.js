@@ -1,3 +1,7 @@
+// Ele é um script para enviar um email utilizando a API https://www.staticforms.xyz/
+// Utilizado em sites para os visitantes enviar um email para o proprietario do site.
+
+
 // Selecionar os Elementos do Pop-up.
 const form = document.getElementById('contactForm');
 const popup = document.querySelector('.popup-wrapper');
@@ -11,7 +15,7 @@ form.addEventListener('submit', (event) => {
         name: form.name.value,
         email: form.email.value,
         message: form.message.value,
-        accessKey: '571121c9-60c7-4bc3-9e43-12516f993328' // Inclui a chave de acesso do email exigida pela API.
+        accessKey: '' // Inclui a chave de acesso do email exigida pela API.
     };
 
     // Converte valores para uma String JSON e Envia os dados para a API com o fetch. 
