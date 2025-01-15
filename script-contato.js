@@ -1,5 +1,6 @@
-// Ele é um script para enviar um email utilizando a API https://www.staticforms.xyz/
-// Utilizado em sites para os visitantes enviar um email para o proprietario do site.
+// Script para enviar email e uma mensagem utilizando a API https://www.staticforms.xyz/.
+// Utilizado para os visitantes do site enviar uma mensagem para o email registrado na chave.
+// Afins de realizar suporte aos visitantes ou esclarecimento de dúvidas.
 
 
 // Selecionar os Elementos do Pop-up.
